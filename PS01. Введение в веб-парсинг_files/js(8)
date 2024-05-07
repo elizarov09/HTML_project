@@ -1,0 +1,41 @@
+$(document).ready(function(){
+	
+	var timerId;
+   
+	init();
+	
+	function init() {
+		if (localStorage.getItem('banner_closed_until') && localStorage.getItem('banner_closed_until') > Date.now()) {
+			timerId = setInterval(function() {
+				if (localStorage.getItem('banner_closed_until') <= Date.now()) {
+					openBanner();
+					clearInterval(timerId);
+				}
+			},1000);
+		}
+		else {
+			openBanner();
+		}
+	}
+	
+	
+	function openBanner() {
+		
+		$('.gc-main-content').prepend('<div class="top-notification-wrapper"></div>');
+		$.get('/banner-2023', function (data) {  
+			$('.top-notification-wrapper').html( $('.fixbanners .info-wrapper', data).html() ) 
+		});
+		
+		setTimeout(function() {
+			$(".banner-close").on("click", function() {
+				$(this).parents(".common-banner-wrapper").addClass('hide_banners'); 
+				localStorage.setItem('banner_closed_until',Date.now()+2*60*60*1000);
+				init();
+			});
+		}, 1000);
+	
+	}
+    
+}); 
+
+
