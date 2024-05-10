@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0c98f9-a3b9-4fb9-9d1e-a2b17e6a65cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PS02_parsing1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PS02_parsing2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PS02_parsing3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6e0c98f9-a3b9-4fb9-9d1e-a2b17e6a65cd" name="Changes" comment="PS02">
+      <change afterPath="$PROJECT_DIR$/PS03_game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PS01. Введение в веб-парсинг.html" beforeDir="false" afterPath="$PROJECT_DIR$/PS01. Введение в веб-парсинг.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_html.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_html.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +42,7 @@
     "Python.PS02_parsing1.executor": "Run",
     "Python.PS02_parsing2.executor": "Run",
     "Python.PS02_parsing3.executor": "Run",
+    "Python.PS03_game.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
@@ -74,9 +70,20 @@
       <option name="presentableId" value="Default" />
       <updated>1714992727092</updated>
     </task>
+    <task id="LOCAL-00001" summary="PS02">
+      <option name="closed" value="true" />
+      <created>1715168828908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715168828908</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="PS02" />
+    <option name="LAST_COMMIT_MESSAGE" value="PS02" />
   </component>
 </project>
