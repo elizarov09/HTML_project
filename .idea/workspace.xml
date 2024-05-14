@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0c98f9-a3b9-4fb9-9d1e-a2b17e6a65cd" name="Changes" comment="PS02">
-      <change afterPath="$PROJECT_DIR$/PS04_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HTML_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HTML_project.iml" afterDir="false" />
+    <list default="true" id="6e0c98f9-a3b9-4fb9-9d1e-a2b17e6a65cd" name="Changes" comment="PS04_1">
+      <change afterPath="$PROJECT_DIR$/PS04_wikiParser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -56,6 +55,7 @@
     "Python.PS02_parsing2.executor": "Run",
     "Python.PS02_parsing3.executor": "Run",
     "Python.PS03_game.executor": "Run",
+    "Python.PS04_wikiParser.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -92,12 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1715168828908</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="PS04_1">
+      <option name="closed" value="true" />
+      <created>1715691667532</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715691667532</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="PS02" />
-    <option name="LAST_COMMIT_MESSAGE" value="PS02" />
+    <MESSAGE value="PS04_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="PS04_1" />
   </component>
 </project>
