@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0c98f9-a3b9-4fb9-9d1e-a2b17e6a65cd" name="Changes" comment="PS04-wikiParser">
-      <change afterPath="$PROJECT_DIR$/divanpars/divanpars/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/divanpars/divanpars/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/divanpars/divanpars/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/divanpars/divanpars/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/divanpars/divanpars/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/divanpars/divanpars/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/divanpars/divanpars/spiders/divannewpars.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/divanpars/scrapy.cfg" afterDir="false" />
+    <list default="true" id="6e0c98f9-a3b9-4fb9-9d1e-a2b17e6a65cd" name="Changes" comment="PS05-SvetScrapy">
+      <change afterPath="$PROJECT_DIR$/videokarty/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videokarty/videokarty/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videokarty/videokarty/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videokarty/videokarty/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videokarty/videokarty/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videokarty/videokarty/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videokarty/videokarty/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videokarty/videokarty/spiders/vidokartpars.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715697199352</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="PS05-SvetScrapy">
+      <option name="closed" value="true" />
+      <created>1715966168734</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715966168734</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -123,6 +131,7 @@
     <MESSAGE value="PS02" />
     <MESSAGE value="PS04_1" />
     <MESSAGE value="PS04-wikiParser" />
-    <option name="LAST_COMMIT_MESSAGE" value="PS04-wikiParser" />
+    <MESSAGE value="PS05-SvetScrapy" />
+    <option name="LAST_COMMIT_MESSAGE" value="PS05-SvetScrapy" />
   </component>
 </project>
